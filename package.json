@@ -1,0 +1,26 @@
+{
+  "name": "barenode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bibek Koirala",
+  "license": "MIT",
+  "description": "A lightweight Node.js framework for building web servers",
+  "keywords": [
+    "express-like",
+    "nodejs",
+    "framework",
+    "fast",
+    "web-server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BibekKoirala07/barenode"
+  },
+  "bugs": {
+    "url": "https://github.com/BibekKoirala07/barenode/issues"
+  },
+  "homepage": "https://github.com/BibekKoirala07/barenode#readme"
+}
