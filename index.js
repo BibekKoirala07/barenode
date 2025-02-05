@@ -70,6 +70,12 @@ class BareNode {
       const filePath = path.join(directory, req.url);
       const fileExtension = path.extname(filePath);
 
+      try {
+        await fs.access(filePath);
+      } catch (error) {
+        return res.status(404).json({ message: "File not found" });
+      }
+
       let mediaType = "application/octet-stream";
       const mimeTypes = {
         ".html": "text/html",
