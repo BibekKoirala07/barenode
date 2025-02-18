@@ -12,7 +12,7 @@ BareNode is a lightweight, minimalist HTTP server framework for Node.js that sim
 ## Installation
 
 ```bash
-npm install fastnode
+npm install barenode
 ```
 
 ## Quick Start
