@@ -1,6 +1,6 @@
-# FastNode
+# BareNode
 
-FastNode is a lightweight, minimalist HTTP server framework for Node.js that simplifies route handling and file serving.
+BareNode is a lightweight, minimalist HTTP server framework for Node.js that simplifies route handling and file serving.
 
 ## Features
 
@@ -18,8 +18,8 @@ npm install fastnode
 ## Quick Start
 
 ```javascript
-const FastNode = require("fastnode");
-const app = new FastNode();
+const BareNode = require("barenode");
+const app = new BareNode();
 
 // Define a route
 app.route("get", "/hello", (req, res) => {
@@ -39,9 +39,9 @@ app.listen(3000, () => {
 
 ## API Reference
 
-### `new FastNode()`
+### `new BareNode()`
 
-Create a new FastNode server instance.
+Create a new BareNode server instance.
 
 ### `route(method, path, callback)`
 
