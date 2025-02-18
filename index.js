@@ -8,7 +8,7 @@ class BareNode {
     this.routes = {};
     this.middleware = [];
 
-    this.server.on("request", (req, res) => {
+    this.server.on("request", function (req, res) {
       try {
         const urlObj = new URL(req.url, `http://${req.headers.host}`);
         req.query = Object.fromEntries(urlObj.searchParams);
